@@ -1,70 +1,176 @@
-# Getting Started with Create React App
+# Resume-Builder (AlmaBetter__Capstone__Project)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Folder Structure
++---public
+|       apple-icon.png
+|       favicon.ico
+|       index.html
+|       logo192.png
+|       logo512.png
+|       manifest.json
+|       robots.txt
+|       
+\---src
+    |   App.js
+    |   index.css
+    |   index.js
+    |   Store.js
+    |   
+    +---Components
+    |   |   CheckSelectedId.js
+    |   |   
+    |   +---BackNextBtn
+    |   |       BackNextBtnComponent.css
+    |   |       BackNextBtnComponent.js
+    |   |       
+    |   +---BlackScreen
+    |   |       BlackScreen.css
+    |   |       BlackScreen.js
+    |   |       
+    |   +---DetailFillingSidebar
+    |   |       DetailFillingSidebar.js
+    |   |       DetailsFillingSideBar.css
+    |   |       
+    |   +---Education
+    |   |       EducationComponent.css
+    |   |       EducationComponent.js
+    |   |       
+    |   +---Header
+    |   |       TemplateHeader.css
+    |   |       TemplateHeader.js
+    |   |       
+    |   +---Heading
+    |   |       TemplateHeading.css
+    |   |       TemplateHeading.js
+    |   |       
+    |   +---Input
+    |   |       InputComponent.css
+    |   |       InputComponent.js
+    |   |       
+    |   +---KeySkills
+    |   |       KeySkillsComponent.css
+    |   |       KeySkillsComponent.js
+    |   |       
+    |   +---MainBar
+    |   |       Navbar.css
+    |   |       Navbar.js
+    |   |       
+    |   +---PersonalInfo
+    |   |       PersonalInfoComponent.css
+    |   |       PersonalInfoComponent.js
+    |   |       
+    |   +---Preview
+    |   |       PreviewComponent.css
+    |   |       PreviewComponent.js
+    |   |       
+    |   +---Select
+    |   |       SelectComponent.css
+    |   |       SelectComponent.js
+    |   |       
+    |   +---TemplateEducation
+    |   |       TemplateEducationComponent.css
+    |   |       TemplateEducationComponent.js
+    |   |       
+    |   +---TemplateKeySkill
+    |   |       TemplateKeySkillComponent.css
+    |   |       TemplateKeySkillComponent.js
+    |   |       
+    |   +---TemplateOneExperience
+    |   |       TemplateOneExperienceComponent.css
+    |   |       TemplateOneExperienceComponent.js
+    |   |       
+    |   \---WorkExperience
+    |           WorkExperienceComponent.css
+    |           WorkExperienceComponent.js
+    |           
+    +---Pages
+    |   |   AboutUs.js
+    |   |   DetailsFilling.js
+    |   |   Home.js
+    |   |   index.js
+    |   |   MyResumes.js
+    |   |   
+    |   \---Styles
+    |           DetailsFilling.css
+    |           Home.css
+    |           MyResumes.css
+    |           
+    +---Redux
+    |   +---Actions
+    |   |       actions.js
+    |   |       
+    |   \---Reducers
+    |           combinedReducers.js
+    |           reducers.js
+    |           
+    \---Utils
+        |   inputChecks.js
+        |   
+        +---Data
+        |       data.js
+        |       templates.js
+        |       
+        +---Images
+        |       aboutCV.jpg
+        |       sample_1.jpg
+        |       sample_2.jpg
+        |       sample_3.jpg
+        |       sample_4.jpg
+        |       
+        \---Templates
+                Template.css
+                Template1.js
+                Template2.js
+                Template3.js
+                Template4.js
+                Template5.js
+                Template6.js
 
-## Available Scripts
+## Introduction
+* Resume|builder is a web application where anyone can create resume with ease and choose from different available templates.
+* It has three tabs : 1) Resume Templates (Home Page) , 2)Resumes (Saved Resumes) 3) About us 
+* Set profile picture in the resume.
+* Before downloading we have a preview option to view your resume.
+* You can save resumes to the local hard drive.
+* Saved resumes can be deleted as well as modified by the user.
 
-In the project directory, you can run:
+## Used in this project:
+* React-Router-Dom
+* Material UI
+* React-Redux
+* Store
+* React-Avatar-edit
+* Vanilla CSS
+* JSX
+* Uniq ID
+* React-Hook-Forms
+* Jspdf converter
+* Redux connect method
+* Images
+* Raw data
 
-### `npm start`
+## Pages
+* Home (Resume Templates) <br/> -Choose one from the available templates &amp; <br/> -Navigated to details filling page 
+* My Resumes
+* About us
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo about the pages:
+-  *Home Page*
+<img width="1120" alt="image" src="https://user-images.githubusercontent.com/100461901/219924028-fb00b130-a794-4c2f-aa43-91feaab95441.png">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- *Details Filling page*
+<img width="1117" alt="image" src="https://user-images.githubusercontent.com/100461901/219924410-c768a081-9ac8-4cf8-83ed-8b6cc00d0d1f.png">
 
-### `npm test`
+- *My Resumes*
+<img width="1120" alt="image" src="https://user-images.githubusercontent.com/100461901/219924722-595fdb82-6037-42b2-8639-44541213b01f.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- *About us*
+<img width="1119" alt="image" src="https://user-images.githubusercontent.com/100461901/219925057-16f85fe1-6aa1-416f-9d88-6040e04faae0.png">
 
-### `npm run build`
+*__Live Link__* <br/>
+<b> https://resumebuilderx/ </b>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+</hr>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*__Demo Video__* </br>
+<b>https://youtu.be/</b>
