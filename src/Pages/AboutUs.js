@@ -81,21 +81,21 @@ export default function ButtonMUI() {
             Kindly Share in your circle
           </Typography>
           <Box className="icons">
-            <Link to="https://www.instagram.com">
+            <Link to="https://www.instagram.com/zulfiqarshaikhofficial66">
               <Instagram
                 sx={{ fontSize: "40px", paddingLeft: "15px" }}
                 color="error"
               />
             </Link>
 
-            <Link to="https://www.facebook.com">
+            <Link to="https://www.facebook.com/profile.php?id=100088497344452">
               <FacebookOutlinedIcon
                 sx={{ fontSize: "40px", paddingLeft: "15px" }}
                 color="primary"
               />
             </Link>
 
-            <Link to="https://www.linkedin.com/in/kamran51/">
+            <Link to="https://www.linkedin.com/in/zulfiqar-shaikh-6a6893202/">
               <LinkedInIcon
                 sx={{ fontSize: "40px", paddingLeft: "15px" }}
                 color="primary"
@@ -107,13 +107,13 @@ export default function ButtonMUI() {
                 color="success"
               />
             </Link>
-            <Link to="https://www.twitter.com">
+            <Link to="https://twitter.com/ZulfiqarSk66">
               <TwitterIcon
                 sx={{ fontSize: "40px", paddingLeft: "15px" }}
                 color="info"
               />
             </Link>
-            <Link to="https://github.com/mekams/">
+            <Link to="https://github.com/ZulfiqarG/">
               <GitHub
                 sx={{ fontSize: "40px", paddingLeft: "15px", color: "black" }}
               />
